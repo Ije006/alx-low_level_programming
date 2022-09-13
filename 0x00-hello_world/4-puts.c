@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - Print text with the outs function
  * 
