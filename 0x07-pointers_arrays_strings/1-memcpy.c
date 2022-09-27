@@ -9,12 +9,14 @@
  *
  * Return: pointer to dest
  */
+
 char *_memcpy(char *dest, char *src, int n)
 {
-	char *ptr = dest;
-
-	while (n--)
-		*ptr++ = *src++;
+	unsigned int i = dest;
+	for (; i < n; i++)
+	{
+		dest[i] = src[1];
+	}
 
 	return (dest);
 }
